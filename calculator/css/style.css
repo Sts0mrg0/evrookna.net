@@ -1,0 +1,1306 @@
+.popup-calculator *{
+ padding:0px;
+  margin:0px;
+}
+.popup-calculator ul li{
+	list-style:none;
+}
+.calculator-top, .calculator-middle{
+   /*font-family: 'helveticaneuecyrroman';*/
+   font-family: 'tahoma';
+    font-size:14px;
+}
+.calculator{
+cursor:pointer;
+}
+.popup-calculator-fon{
+ height:100%;
+  width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  background:url('/bitrix/images/calculator/pix.png');
+  z-index:1000;
+}
+.popup-calculator{
+ background:#FFF;
+ height:910px;
+  width:1080px;
+  position:absolute;
+  top:100px;
+  left:50%;
+  margin:0 0 0px -540px;
+  z-index:1010;
+}
+.calculator-close{
+ width:32px;
+  height:31px;
+  background:url('/bitrix/images/calculator/close.png') no-repeat;
+  position:absolute;
+  top:-16px;
+  right:-12px;
+  cursor:pointer;
+}
+.calculator-top{
+ height:63px;
+  width:100%;
+  background:#ed1c24;
+}
+.calculator-top ul{
+ 	list-style:none; 
+  padding:1px 0 0 0;
+}
+.calculator-top ul li{
+ float:left;
+  
+  width:281px;
+  height:32px;
+  text-align:center;
+  padding:30px 0 0 0;
+  margin:0 0 0 32px;
+cursor:pointer;
+}
+.calculator-top ul li.calculator-shac2{
+   margin:0 50px 0 95px;
+}
+.calculator-top ul li span{
+ color:#FFF;
+  border-bottom:1px dashed;
+  font-size:16px;
+}
+.calculator-top ul li.calculator-shac-active{
+background:url('/bitrix/images/calculator/tab_active.png') no-repeat;
+}
+.calculator-top ul li.calculator-shac-active span{
+color:#000;
+}
+.calculator-middle{
+clear:both;
+  width:100%;
+
+}
+.shag1-box1{
+ height:65px;
+  width:100%;
+  background:#ebebeb;
+margin:3px 0 0 0;
+}
+.shag1-box1-name{
+background:url('/bitrix/images/calculator/shag1_el1.png') no-repeat;
+  width:111px;
+  height:52px;
+  padding:13px 20px 0px 25px;
+  float:left;
+  font-size:14px;
+  color:#272727;
+  line-height:20px;
+}
+.shag1-box1-ul ul{
+ list-style:none; 
+  padding:14px 0 0 15px;
+  height:48px;
+  float:left;
+}
+.shag1-box1-ul ul li{
+	float:left;
+  margin:0 0 0 0px;
+ padding:8px 8px; 
+ font-size:14px;
+}
+.shag1-box1-ul ul li label{
+  border-bottom:1px dashed;
+cursor:pointer;
+color:#272727;
+}
+.shag1-box1-ul ul li input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+	border-bottom:0px;
+	 top:4px !important;  
+	 position:relative;
+}
+.shag1-box1-ul ul li input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+	border-bottom:0px;
+	 top:4px !important;  
+	 position:relative;
+}
+
+
+
+.shag1-box1-ul ul li span{
+  color:#ec1d23;
+}
+.clear-both{
+height:1px;
+width:100%;
+clear:both;
+}
+.shag1-boxbox{
+ position:relative; 
+height:525px;
+}
+/**/
+.shag1-box2{
+  height:205px;
+  width:465px;
+  border-top:1px solid #ebebeb;
+  border-bottom:1px solid #ebebeb;
+  position:relative;
+  margin:15px 0 10px 10px;
+  padding:15px 0 0 25px;
+}
+.shagboxname{
+	color:#ed1c24;
+	font-size:18px;
+}
+.shag1-boxbox-left ul{
+	list-style:none;
+}
+.shag1-boxbox-left ul li{
+	color:#272727;
+	font-size:14px;
+	margin:12px 0 0 0;
+}
+.shag1-boxbox-left ul li input{
+	display:none;
+}
+.shag1-boxbox-left ul li label{
+	cursor:pointer;
+}
+.shag1-boxbox-left .input_img{
+	position:relative;
+	top:2px;
+	margin:0 7px 0 0;
+}
+.shag1-boxbox-left input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+.shag1-boxbox-left input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+.shag1-boxbox-right{
+	position:absolute;
+	top:30px;
+	right:0px;
+}
+/**/
+/**/
+.shag1-box3{
+  height:215px;
+  width:215px;
+ /* border-top:1px solid #ebebeb;*/
+  border-bottom:1px solid #ebebeb;
+  position:relative;
+  margin:15px 10px 10px 10px;
+  padding:15px 0 0 25px;
+  
+  
+}
+.shag1-box3-name{
+margin-bottom:10px;
+}
+.shag1-boxbox3 ul{
+	list-style:none;
+	height:150px;
+	width:190px;
+	overflow:hidden;
+	position:relative;
+}
+.shag1-boxbox3 ul li{
+	color:#272727;
+	font-size:14px;
+	margin:9px 0 9px 0;
+}
+.shag1-boxbox3 ul li input{
+	display:none;
+}
+.shag1-boxbox3 ul li label{
+	cursor:pointer;
+}
+.shag1-boxbox3 .input_img{
+	position:relative;
+	top:2px;
+	margin:0 7px 0 0;
+}
+.shag1-boxbox3 input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+.shag1-boxbox3 input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+
+
+/**/
+
+
+.shag1-box4{
+  height:170px;
+  width:230px;
+  position:absolute;
+  left:280px;
+  top:250px;
+}
+.shag1-box4-name{
+	margin:0 0 10px 0;
+}
+.shag1-box4-inp{
+	color:#272727;
+	font-size:14px;
+	margin:15px 0 0 0;
+}
+.shag1-box4-inp span{
+ width:70px;
+ display:inline-block;
+}
+.shag1-box4-inp input{
+	border:1px solid #272727;
+	color:#8a8a8a;
+	font-size:14px;
+	width:60px;
+	height:30px;
+}
+
+/**/
+
+.shag1-box5{
+  height:440px;
+  width:500px;
+  position:absolute;
+  right:0px;
+  top:5px;
+}
+/**/
+.shag1-box6{
+  height:30px;
+  width:758px;
+  position:absolute;
+  left:278px;
+  top:455px;
+  color:#ed1c24;
+  font-size:18px;
+}
+.shag1-box6 select{
+	border:1px solid #000;
+	width:200px;
+	height:30px;
+	margin:0 0 0 15px;
+	float:right;
+}
+/**/
+.shag1-boxtext{
+  width:100%;
+  height:110px;
+  background:#ebebeb;
+  
+}
+.shag1-boxtext-left{
+  background:url('/bitrix/images/calculator/shag1_el1.png') no-repeat;
+  width:111px;
+  height:53px;
+  padding:12px 20px 0px 25px;
+  float:left;
+  font-size:14px;
+  color:#272727;
+  line-height:20px;
+  margin:22px 0 0 0;
+  float:left;
+}
+.shag1-boxtext-right{
+	float:right;
+	width:880px;
+	color:#272727;
+	font-size:14px;
+	padding:10px;
+}
+.shag1-box1-ul input[type=radio]{
+display:none;
+}
+/**/
+.shagi-buttons .shagi-buttons-left{
+  background:url('/bitrix/images/calculator/prev_tab.png') no-repeat;
+  color:#FFF;
+  width:147px;
+  height:27px;
+  text-decoration:underline;
+  text-align:right;
+  padding:6px 20px 0 0;
+  position:absolute;
+  top:0px;
+  left:340px;
+  cursor:pointer;
+}
+.shagi-buttons .shagi-buttons-right{
+  background:url('/bitrix/images/calculator/next_tab.png') no-repeat;
+  color:#FFF;
+  width:147px;
+  height:27px;
+  text-decoration:underline;
+  text-align:left;
+  padding:6px 0px 0 20px;
+  position:absolute;
+  top:0px;
+  right:340px;
+   cursor:pointer;
+}
+.shagi-buttons {
+ position:relative;
+  height:30px;
+  margin:14px 0 0 0;
+}
+
+.shag1-box1-ul ul li.radioactive{
+  border:none;
+}/*
+.shag1-box1-ul ul li.radioactive label{
+ color:#FFF; 
+border:none;
+}
+.shag1-box1-ul ul li.radioactive label span{
+	color:#FFF;
+}
+*/
+/*Шаг второй*/
+
+#shag2_box{
+ padding:15px 0 0 0; 
+}
+
+#shag2_box_top_left{
+float:left;
+width:530px;
+}
+#shag2_box_top_left_top{
+height:220px;
+width:490px;
+border-bottom:1px solid #ebebeb;
+margin:0 0 0 20px;
+position:relative;
+}
+#shag2_box_top_left_top_left ul{
+ list-style:none; 
+ margin:0 0 0 -20px;
+}
+#shag2_box_top_left_top_left ul li{
+ margin:2px 0 0 0; 
+}
+#shag2_box_top_left_top_left input{
+	display:none;
+}
+#shag2_box_top_left_top_left label{
+  background:url('/bitrix/images/calculator/shag2_tab.png') no-repeat;
+  color:#FFF;
+  width:160px;
+  height:34px;
+  color:#272727;
+  padding:15px 0 0 20px;
+  display:block;
+  cursor:pointer;
+}
+#shag2_box_top_left_top_left input:checked ~ label{
+    background:url('/bitrix/images/calculator/shag2_tab_active.png') no-repeat;
+}
+
+#shag2_box_top_left_top_right{
+	position:absolute;
+	width:280px;
+	height:200px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+#shag2_box_top_left_top_right ul{
+list-style:none;
+}
+#shag2_box_top_left_top_right ul li{
+margin:0 0 4px 0;
+}
+#shag2_box_top_left_top_right ul li input{
+	display:none;
+}
+#shag2_box_top_left_top_right ul li label{
+	cursor:pointer;
+}
+#shag2_box_top_left_top_right .input_img{
+	position:relative;
+	top:3px;
+	margin:0 7px 0 0;
+}
+#shag2_box_top_left_top_right input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+#shag2_box_top_left_top_right input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+
+#shag2_box_top_left_bottom{
+height:190px;
+width:480px;
+border-bottom:1px solid #ebebeb;
+margin:10px 0 0 20px;
+position:relative;
+}
+.shag2_box_top_left_bottom-name{
+	margin:0 0 0 30px;
+}
+.shag2_box_top_left_bottom_box{
+  height:150px;
+  width:500px;
+  padding:15px 0 0 0;
+  margin:0 0 0 10px;
+}
+
+.shag2_box_top_left_bottom_box_item{
+	float:left;
+	padding:0 0px 0 0px;
+	width:200px;
+	margin:0 0px 0 35px
+	
+}
+.shag2_box_top_left_bottom_box_item ul{
+list-style:none;
+}
+.shag2_box_top_left_bottom_box_item ul li{
+margin:0 0 8px 0;
+}
+.shag2_box_top_left_bottom_box_item ul li input{
+	display:none;
+}
+.shag2_box_top_left_bottom_box_item ul li label{
+	cursor:pointer;
+}
+.shag2_box_top_left_bottom_box_item .input_img{
+	position:relative;
+	top:3px;
+	margin:0 8px 0 0;
+}
+.shag2_box_top_left_bottom_box_item input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+.shag2_box_top_left_bottom_box_item input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+#shag2_box_middle{
+  border-top:1px solid #ebebeb;
+  border-bottom:1px solid #ebebeb;
+  margin:10px 0 22px 20px;
+  width:1040px;
+  height:165px;
+}
+.shag2_box_middle-name{
+ margin:10px 0 010px 30px 
+}
+#shag2_box_middle_box{
+  height:120px;
+  width:900px;
+  margin:0 0 0 30px;
+}
+.shag2_box_middle_box_elem{
+  width:280px;
+height:118px;
+}
+.shag2_box_middle_box_elem_left{
+ float:left;
+  margin:0 0px 0 0;
+  width:122px;
+  height:103px;
+}
+.shag2_box_middle_box_elem_right{
+  float:right;
+  width:135px;
+  padding:0 10px 0 0;
+}
+.shag2_box_middle_box_elem_right input{
+ display:none; 
+}
+.shag2_box_middle_box_elem_right input ~ .checkbox_img{
+ border:1px solid #3c3c3c;
+  width:14px;
+  height:14px;
+  display:inline-block;
+  margin:0 5px 0 0;
+  position:relative;
+  top:3px;
+  cursor:pointer;
+}
+.shag2_box_middle_box_elem_right input:checked ~ .checkbox_img{
+ border:1px solid #3c3c3c;
+  width:14px;
+  height:14px;
+  display:inline-block;
+  margin:0 5px 0 0;
+  position:relative;
+  top:3px;
+  cursor:pointer;
+}
+.shag2_box_middle_box_elem_right input:checked ~ .checkbox_img div{
+  background:url('/bitrix/images/calculator/gal.png');
+  height:12px;
+  width:13px;
+  margin:1px;
+}
+.shag2_box_middle_box_elem_right_name{
+ color:#ed1c24; 
+  text-decoration:underline;
+}
+.shag2_box_middle_box_elem_right_box{
+ color:#5b5b5b;
+  font-size:12px;
+  padding:10px 0 0 0;
+}
+#shag2_box .shag1-boxtext{
+	height:130px;
+}
+#shag2_box .shag1-boxtext-left{
+  margin:32px 0 0 0;
+}
+#shag2_box_top_right{
+height:440px;
+width:540px;
+float:right;
+}
+.shag1-boxtext-right-box{
+ float:left;
+  margin:0 20px 0 0;
+  width:300px; 
+}
+.shag1-boxtext-right-box.shag1-boxtext-right-box2{
+	width:500px;
+}
+.shag1-boxtext-right-box ul{
+  list-style:none;
+}
+.shag1-boxtext-right-box ul li{
+ color:#5b5b5b;
+  font-size:12px;
+  margin:0 0 3px 0;
+}
+.shag1-boxtext-right-box ul li span.boxtext-span-red{
+ color:#ed1c24; 
+}
+#dopcii i{
+font-style:normal; 
+}
+
+
+/**/
+#shag3_box_left{
+ width:460px;
+  border-top:1px solid #ebebeb;
+	float:left;
+  margin:25px 0 0 50px;
+  
+}
+#shag3_box_left ul{
+  list-style:none;
+}
+#shag3_box_left ul li{
+ margin:0 0 15px 0; 
+ position:relative;
+}
+#shag3_box_left ul li input[type=radio]{
+	display:none;
+}
+#shag3_box_left ul li label{
+	cursor:pointer;
+	padding:0 0 0 25px;
+	display:block;
+}
+#shag3_box_left .input_img{
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0 8px 0 0;
+}
+#shag3_box_left input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+#shag3_box_left input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+#shag3_box_left .shagboxname{
+  margin:20px 0 20px 0;
+}
+
+#shag3_box_right{
+	float:right;
+  margin:22px 25px 0 0;
+}
+#shag3_box_right_box2{
+ margin:25px 0 0 0; 
+
+}
+#shag3_box_right_box2-form{
+ background:#ebebeb;
+  border:1px solid #b6b6b6;
+  padding:15px 55px 35px 55px;
+}
+
+#shag3_box_right_box2-form-name{
+ color:#ed1c24;
+  font-size:18px;
+  margin:0 0 15px 0;
+}
+.shag3_box_right_box2-form-box-name{
+ color:#272727;
+  font-size:14px;
+  margin:5px 0 3px 0;
+}
+.shag3_box_right_box2-form-box-input input{
+ width:400px;
+  height:28px;
+  border:1px solid #8a8a8a;
+}
+.shag3_box_left_box1-box-litext{
+ color:#8a8a8a; 
+  margin:10px 0 0 20px;
+}
+.shag3_box_left_box1-box-litext input{
+ border:1px solid #8a8a8a;
+  width:60px;
+  height:30px;
+  margin:0 0 0 20px;
+}
+.shag3_box_left_box1-descr{
+ color:#8a8a8a;
+  font-size:14px;
+  margin:25px 0 0 0
+}
+.shag3_box_left_box1-descr span{
+color:#ed1c24;
+}
+.shag3_box_left_box2-box-litext{
+color:#8a8a8a;
+font-size:14px;
+float:right;
+margin:-3px 0 0 0;
+}
+.shag3_box_left_box2-box-litext input{
+	border:1px solid #8a8a8a;
+	width:55px;
+	height:20px;
+	margin:0 0 0 20px;
+}
+.shag3_box_left_box2-box label{
+float:left;
+}
+#shag3_box_left_box2, #shag3_box_left_box3{
+border-top:1px solid #ebebeb;
+margin-top:25px;
+}
+#shag3_box .shagi-buttons{
+ margin:35px 0 0 0; 
+}
+.shagi-buttons-left-href{
+ color:#ed1c24;
+  font-size:14px;
+  border-bottom:1px dashed #ed1c24;
+  text-align:right;
+  padding:0px 0px 0 0;
+  position:absolute;
+  top:6px;
+  left:280px;
+  cursor:pointer;
+}
+#shag2_box{
+  padding:22px 2px 0 0;
+}
+.shag1-box5-left{
+ position:absolute;
+  top:190px;
+  left:130px;
+  width:40px;
+  height:40px;
+  background:#fcd557;
+  border-radius:21px;
+  border:1px solid #dd0000;
+  color:#dd0000;
+  cursor:pointer;
+  z-index:50;
+}
+.shag1-box5-left:hover{
+  background:#dd0000;
+  border:1px solid #dd0000;
+  color:#FFF;
+}
+.shag1-box5-left ul{
+ position:absolute;
+  top:30px;
+  left:-139px;
+  background:url('/bitrix/images/calculator/vibor_poz.png') left bottom no-repeat;
+  color:#272727;
+  font-size:14px;
+  border-radius:7px;
+  padding:43px 25px 30px 25px;
+  width:176px;
+  height:72px;
+  cursor:default;
+  display:none;
+}
+.shag1-box5-left:hover ul{
+  display:block;
+}
+.shag1-box5-left ul li{
+  margin:0 0 10px 0;
+}
+.shag1-box5-left ul li label{
+  border-bottom:1px dashed #272727;
+  cursor:pointer;
+}
+.shag1-box5-left ul li label:hover{
+  border-bottom:none;
+}
+.shag1-box5-left ul li input{
+ display:none; 
+}
+.shag1-box5-left span{
+display:block;
+width:42px;
+height:35px;
+position:absolute;
+top:0px;
+left:0px;
+font-size:22px;
+text-align:center;
+padding:7px 0 0 0;
+}
+.shag1-box5-left.shag1-box5-right{
+ left:300px; 
+}
+.shag1-box5-left .active label{
+  border-bottom:none;
+}
+body .glubina_box{
+ border-top:1px solid #ebebeb;
+  margin:10px 0 0 0;
+  padding:10px 0 0 0;
+}
+body .glubina_box .glubina{
+  margin:0 0 20px 0;
+}
+body .glubina_box .glubina input{
+  width:60px;
+  height:30px;
+  border:1px solid #000;
+  margin:0 10px 0 28px;
+  text-align:center;
+}
+body .otpravka_box{
+  text-align:center;
+ color:red;
+  font-size:38px;
+  padding:120px 0 0 0;
+}
+.shag2_img_fon{
+ position:relative; 
+  float:left;
+}
+.podokonnik_fon{
+  background:url('/bitrix/images/calculator/pdkonnik') no-repeat;
+  height:11px;
+  width:100%;
+  bottom:11px;
+  left:0px;
+  position:absolute;
+}
+.podokonnik_fon.podokonnik_fon_balkon{
+ bottom:145px; 
+  width:265px;
+}
+.otkos_fon_top{
+   background:#3d231e;
+  height:11px;
+  width:96%;
+  top:5px;
+  left:6px;
+  position:absolute;
+}
+.otkos_fon_left{
+   background:#3d231e;
+  height:96%;
+  width:11px;
+  top:5px;
+  left:6px;
+  position:absolute;
+}
+.otkos_fon_right{
+   background:#3d231e;
+  height:96%;
+  width:11px;
+  top:5px;
+  right:6px;
+  position:absolute;
+}
+.otkos_fon_left.otkos_fon_left_balkon{
+  height:270px;
+}
+.otkos_fon_right.otkos_fon_right_balkon{
+ right:130px; 
+  height:270px;
+}
+.otkos_fon_top.otkos_fon_top_balkon{
+  width:250px;
+}
+#shag3_box_left_nestandart{
+ padding:20px 500px 0 50px; 
+}
+.select_graf_box{
+
+  height:372px;
+  width:250px;
+  position:absolute;
+  top:23px;
+  left:27px;
+}
+.select_graf_box{
+
+  height:372px;
+  width:250px;
+  position:absolute;
+  top:23px;
+  left:27px;
+}
+.select_graf_top_left{
+  position:absolute;
+  left:68px;
+  bottom:-4px;
+  width:2px;
+  height:377px;
+  background:red;
+  transform: rotate(17.5deg);
+}
+.select_graf_top_right{
+  position:absolute;
+  left:180px;
+  bottom:-4px;
+  width:2px;
+  height:377px;
+  background:red;
+  transform: rotate(-17.5deg);
+}
+
+.select_graf_left{
+  position:absolute;
+  left:125px;
+ 	top:-47px;
+  width:2px;
+  height:290px;
+  background:red;
+  transform: rotate(128deg);
+}
+.select_graf_right{
+  position:absolute;
+  left:125px;
+ 	bottom:-50px;
+  width:2px;
+  height:290px;
+  background:red;
+  transform: rotate(-128deg);
+}
+.select_graf_box.select_graf_box_two{
+  width:152px;
+  height:356px;
+  top:30px;
+}
+.select_graf_box.select_graf_box_two .select_graf_top_left{
+  position:absolute;
+  left:37px;
+  bottom:-6px;
+  width:2px;
+  height:367px;
+  background:red;
+  transform: rotate(12deg);
+}
+.select_graf_box.select_graf_box_two .select_graf_top_right{
+  position:absolute;
+  left:114px;
+  bottom:-6px;
+  width:2px;
+  height:367px;
+  background:red;
+  transform: rotate(-12deg);
+}
+.select_graf_box.select_graf_box_two .select_graf_left{
+    position:absolute;
+  left:76px;
+ 	top:-25px;
+  width:2px;
+  height:232px;
+  background:red;
+  transform: rotate(140deg);
+}
+.select_graf_box.select_graf_box_two .select_graf_right{
+    position:absolute;
+  left:76px;
+ 	bottom:-27px;
+  width:2px;
+  height:232px;
+  background:red;
+  transform: rotate(-140deg);
+}
+.select_graf_box.select_graf_box_tro{
+  width:115px;
+  height:272px;
+  top:25px;
+}
+.select_graf_box.select_graf_box_tro .select_graf_top_left{
+  position:absolute;
+  left:28px;
+  bottom:-6px;
+  width:2px;
+  height:280px;
+  background:red;
+  transform: rotate(12deg);
+}
+.select_graf_box.select_graf_box_tro .select_graf_top_right{
+  position:absolute;
+  left:86px;
+  bottom:-6px;
+  width:2px;
+  height:280px;
+  background:red;
+  transform: rotate(-12deg);
+}
+.select_graf_box.select_graf_box_tro .select_graf_left{
+    position:absolute;
+  left:56px;
+ 	top:-25px;
+  width:2px;
+  height:182px;
+  background:red;
+  transform: rotate(140deg);
+}
+.select_graf_box.select_graf_box_tro .select_graf_right{
+    position:absolute;
+  left:56px;
+ 	bottom:-27px;
+  width:2px;
+  height:182px;
+  background:red;
+  transform: rotate(-140deg);
+}
+.shag2_img_fon_stvorka{
+  top:0px;
+  left:0px;
+   position:absolute;
+}
+.select_graf_box.select_graf_box_tro.select_graf_box_balkon{
+  width:100px;
+  height:238px;
+  top:19px;
+  left:19px;
+}
+.select_graf_box.select_graf_box_tro.select_graf_box_balkon .select_graf_top_left{
+  position:absolute;
+  left:25px;
+  bottom:-6px;
+  width:2px;
+  height:247px;
+  background:red;
+  transform: rotate(12deg);
+}
+.select_graf_box.select_graf_box_tro.select_graf_box_balkon .select_graf_top_right{
+  position:absolute;
+  left:75px;
+  bottom:-6px;
+  width:2px;
+  height:247px;
+  background:red;
+  transform: rotate(-12deg);
+}
+.select_graf_box.select_graf_box_tro.select_graf_box_balkon .select_graf_left{
+    position:absolute;
+  left:49px;
+ 	top:-17px;
+  width:2px;
+  height:156px;
+  background:red;
+  transform: rotate(140deg);
+}
+.select_graf_box.select_graf_box_tro.select_graf_box_balkon .select_graf_right{
+    position:absolute;
+  left:48px;
+ 	bottom:-21px;
+  width:2px;
+  height:156px;
+  background:red;
+  transform: rotate(-140deg);
+}
+
+.select_graf_box.select_graf_box_dver{
+  height:240px;
+  width:150px;
+  top:15px;
+  left:15px;
+}
+
+.select_graf_box.select_graf_box_dver .select_graf_left{
+   position:absolute;
+  left:74px;
+ 	top:-37px;
+  width:2px;
+  height:195px;
+  background:red;
+  transform: rotate(128deg);
+}
+.select_graf_box.select_graf_box_dver .select_graf_right{
+    position:absolute;
+  left:74px;
+ 	bottom:-37px;
+  width:2px;
+  height:195px;
+  background:red;
+  transform: rotate(-128deg);
+}
+body .podokonnik_fon.podokonnik_fon_while{
+ background:#e2e1df;
+ border:1px solid #d1d1d1;
+}
+.shag1-box1-name{
+ position:relative; 
+}
+.shag1-reshenie-number{
+	color:#ed1c24;
+  font-size:28px;
+  position:absolute;
+  top:24px;
+  left:5px;
+}
+
+
+
+
+.shag1-box1-name{
+ position:relative; 
+}
+.shag1-reshenie-number{
+  color:#ed1c24;
+  font-size:28px;
+  position:absolute;
+}
+#shag2_box_top_left_top_left ul li{
+ position:relative; 
+}
+
+.shag1-reshenie-number-1{
+  top:24px;
+  left:5px;
+}
+.shag1-reshenie-number-2{
+  top:8px;
+  left:-3px;
+}
+.shag1-reshenie-number-3{
+  top:-5px;
+  left:-30px;
+}
+.shag2-reshenie-number-1{
+  top:7px;
+  left:3px;
+}
+.shag2-reshenie-number-2{
+  top:-6px;
+  left:-24px;
+}
+.shag2_box_middle-name, .shag2_box_top_left_bottom-name{
+ position:relative; 
+}
+.shagi-buttons-each{
+  width:500px;
+  position:absolute;
+  top:-20px;
+  left:50px;
+}
+.shagi-buttons-each-element{
+  cursor:pointer;
+  float:left;
+}
+.shagi-buttons-each-element-number{
+ color:#ec1d25;
+  font-size:22px;
+  font-weight:bold;
+  width:21px;
+  height:54px;
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+.shagi-buttons-each-element-img{
+  display:table-cell;
+}
+.shagi-buttons-each-element-img div{
+  padding:4px;
+  display:table;
+  height:auto;
+}
+.shagi-buttons-each input{
+	display:none;
+}
+.shagi-buttons-each input:checked  + .shagi-buttons-each-element .shagi-buttons-each-element-img div{
+  padding:2px;
+ border: 2px solid #fc535a;
+}
+/*.shagi-buttons-each-element-active .shagi-buttons-each-element-img div{
+  border: 2px solid #fc535a;
+}*/
+.shagi-buttons-each-element-img div img{
+  display:block;
+}
+.shagi-buttons-5555{
+ color:red;
+  text-align:center;
+ padding:40px 0 0 0 !important;
+}
+.shag1-box4-balkon{
+  position:absolute;
+  top:0px;
+  left:250px;
+  width:300px;
+  z-index:5;
+}
+#shag3_box_right_box1{
+   width:450px;
+   min-height:420px;
+}
+body .shag2_box_top_left_bottom_box_item_description{
+  clear:both;
+  padding:5px 0 0 30px;
+}
+#dWin h3 {
+    min-height:45px;
+}
+#quanty_stvorok{
+ top:30px;
+ left:540px;
+}
+#quanty_stvorok.quanty_stvorok_2{
+ top:130px;
+ left:540px;
+}
+#quanty_stvorok ul{
+	list-style:none;
+}
+#quanty_stvorok ul li{
+	color:#272727;
+	font-size:14px;
+	margin:2px 0 0 0;
+}
+#quanty_stvorok ul li input{
+	display:none;
+}
+#quanty_stvorok ul li label{
+	cursor:pointer;
+}
+#quanty_stvorok .input_img{
+	position:relative;
+	top:2px;
+	margin:0 7px 0 0;
+}
+#quanty_stvorok input ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+#quanty_stvorok input:checked ~ .input_img{
+	display:inline-block;
+	background:url('/bitrix/images/calculator/radio_active.png') no-repeat;
+	height:16px;
+	width:16px;
+}
+.shag1-box4-box-left{
+  padding:0 0 0 20px;
+  width:100px;
+  float:left;
+}
+.shag1-box4-box-left-1{
+	 border-right:1px solid #8c8c8c;
+	 width:65px;
+	 padding-left:40px;
+}
+
+.shag2_box_top_left_bottom_box_item input ~ .checkbox_img{
+ border:1px solid #3c3c3c;
+  width:14px;
+  height:14px;
+  display:inline-block;
+  margin:0 5px 0 0;
+  position:relative;
+  top:3px;
+  cursor:pointer;
+}
+.shag2_box_top_left_bottom_box_item input:checked ~ .checkbox_img{
+ border:1px solid #3c3c3c;
+  width:14px;
+  height:14px;
+  display:inline-block;
+  margin:0 5px 0 0;
+  position:relative;
+  top:3px;
+  cursor:pointer;
+}
+.shag2_box_top_left_bottom_box_item input:checked ~ .checkbox_img div{
+  background:url('/bitrix/images/calculator/gal.png');
+  height:12px;
+  width:13px;
+  margin:1px;
+}
+body div .otpravka_box{
+ font-size:14px; 
+  color:#000;
+  width:500px;
+  text-align:left;
+  margin:0 auto;
+}
+body div .otpravka_box a{
+ color:#000; 
+  font-size:12px;
+}
+body .otpravka_box_1{
+ margin:0 0 10px 0; 
+   font-size:16px; 
+}
+body .otpravka_box_3{
+  margin:0 0 10px 0;  
+}
+body .otpravka_box_4{
+  margin:0 0 10px 0;  
+}
+.shagi-buttons-sp, .shagi-buttons-right{
+text-decoration:none !important;
+}
